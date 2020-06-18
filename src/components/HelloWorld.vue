@@ -7,7 +7,7 @@
     <p>{{ message.split('').reverse().join('') }}</p>
   <div>
     <p v-if="isFlag">我是齐天大圣s</p>  
-    <p v-else>我是齐天大圣</p>
+    <p v-else>我是齐天大圣AAAA</p>
     <p>{{ test }}</p>
   </div>
   <div>
