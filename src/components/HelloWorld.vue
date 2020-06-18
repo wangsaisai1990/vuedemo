@@ -8,7 +8,6 @@
   <div>
     <p v-if="isFlag">我是齐天大圣s</p>
     <p v-else>我是齐天大圣</p>
-    <p>{{ test }}</p>
   </div>
   <div>
     <ul>
@@ -23,7 +22,6 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      test: 'test merge',
       msg: 'hello world App',
       result: '<h3>我是泰迪AAAA</h3>',
       isActive: 'actives',
