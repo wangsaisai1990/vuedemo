@@ -6,7 +6,7 @@
     <div v-bind:class="isActive">绑定事件</div>
     <p>{{ message.split('').reverse().join('') }}</p>
   <div>
-    <p v-if="isFlag">我是齐天大圣s</p>  
+    <p v-if="isFlag">我是齐天大司机</p>  
     <p v-else>我是齐天大圣</p>
     <p>{{ test }}</p>
   </div>
@@ -25,7 +25,7 @@ export default {
     return {
       test: 'test merge',
       msg: 'hello world App',
-      result: '<h3>我是泰迪</h3>',
+      result: '<h3>我是泰迪AAAA</h3>',
       isActive: 'actives',
       message: 'message',
       isFlag: false,
